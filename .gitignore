@@ -1,0 +1,50 @@
+# Virtual environments
+env/
+.venv/
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Executables
+*.exe
+
+# Logs and debug output
+*.log
+*.debug
+
+# Sensitive files
+secret.py
+*.pem
+*.key
+*.crt
+*.env
+*.cfg
+*.ini
+*.json
+credentials/
+config/
+
+# Database
+*.sqlite3
+*.db
+database.sql
+
+# Ignore folders like __pycache__, not just names
+*/__pycache__/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.spec
